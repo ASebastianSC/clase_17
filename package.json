@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:src": "babel src --out-dir dist",
+    "build": "babel server.js --out-file server-babel.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
